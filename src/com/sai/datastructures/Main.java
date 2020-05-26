@@ -1,6 +1,7 @@
 package com.sai.datastructures;
 
 import com.sai.datastructures.comparator.ComparatorArrays;
+import com.sai.datastructures.maps.HashMapAbout;
 import com.sai.datastructures.maps.One_IntroductionToMaps;
 import com.sai.datastructures.overflowbounds.IntegerOverflow;
 import com.sai.datastructures.stack.One_IntroductionStack;
@@ -20,7 +21,8 @@ public class Main {
         //demoComparatorArrays();
         //demoStrings();
         //demoTypeCasting();
-        demoOverflow();
+        //demoOverflow();
+        demoHashMap();
 
     }
 
@@ -49,6 +51,12 @@ public class Main {
         One_IntroductionStrings.stringCompareTo();
         One_IntroductionStrings.commonStringUtilities();
         One_IntroductionStrings.subStringDemo();
+    }
+    //endregion
+
+    //region : HashMap
+    public static void demoHashMap() {
+        HashMapAbout.demoHashMapUsage();
     }
     //endregion
 
